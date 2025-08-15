@@ -1,0 +1,59 @@
+:root {
+    /* Palette modern pastel/neon */
+    --ion-color-primary: #7b5cff;
+    --ion-color-primary-rgb: 123,92,255;
+    --ion-color-secondary: #3be0c8;
+    --ion-color-tertiary: #ff9de6;
+    --ion-color-success: #2dd36f;
+    --ion-color-warning: #ffc409;
+    --ion-color-danger:  #ff5c7a;
+    --ion-color-medium:  #9aa0a6;
+    --ion-color-light:   #f4f5f8;
+    --ion-color-dark:    #0b0d12;
+  
+    /* Verre / glow */
+    --glass-bg: rgba(255,255,255,0.08);
+    --glass-border: rgba(255,255,255,0.22);
+    --card-radius: 18px;
+  
+    /* Police système par défaut (swap possible via index.html) */
+    --app-font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  
+  html, body, ion-app, ion-content { background: transparent; }
+
+
+  /* Thème par défaut = dark via data-attr */
+:root[data-theme="dark"] {
+    --ion-color-primary: #7b5cff;
+    --ion-color-secondary: #3be0c8;
+    --ion-color-tertiary: #ff9de6;
+    --glass-bg: rgba(255,255,255,0.08);
+    --glass-border: rgba(255,255,255,0.22);
+    color-scheme: dark;
+  }
+  :root[data-theme="neon"] {
+    --ion-color-primary: #00e5ff;
+    --ion-color-secondary: #00ff85;
+    --ion-color-tertiary: #ff00f5;
+    --glass-bg: rgba(0,0,0,0.35);
+    --glass-border: rgba(255,255,255,0.15);
+  }
+  :root[data-theme="pastel"] {
+    --ion-color-primary: #a088ff;
+    --ion-color-secondary: #6ee7d2;
+    --ion-color-tertiary: #ffb7f0;
+    --glass-bg: rgba(255,255,255,0.5);
+    --glass-border: rgba(0,0,0,0.08);
+    color-scheme: light;
+  }
+  :root[data-theme="classic"] {
+    --ion-color-primary: #3f51b5;
+    --ion-color-secondary: #009688;
+    --ion-color-tertiary: #e91e63;
+    --glass-bg: rgba(255,255,255,0.4);
+    --glass-border: rgba(0,0,0,0.12);
+    color-scheme: light;
+  }
+  
+  

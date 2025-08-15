@@ -1,0 +1,7 @@
+{
+  "name": "taskio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
